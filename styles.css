@@ -1,0 +1,118 @@
+body {
+  background-color: #f2e9d0;
+  padding-top: 75px;        /*   to correctly set navbar */
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;            /* To cover a strange little abyss below */
+}
+
+.nav-move {                     /* A div for correct navbar moving */
+  padding: 100px 0;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////Navbar ///////////////////////////////////////////////////////////////////////////////////////*/
+
+.navbar {
+  padding-left: 3rem;
+  padding-right: 8.1rem;          /* left-padding + logo padding but from the right; v.1: 7.2rem */
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    padding-right: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {                     /* A div for correct navbar moving */
+    line-height: 4;
+  }
+  .nav-move {                     /* A div for correct navbar moving */
+    padding: 200px 0;
+  }
+}
+
+.navbar-brand {
+  margin: 1px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.nav-item {
+  font-weight: 400;
+  margin: 0 1.5rem;
+}
+
+.dropdown-menu {
+  background-color: #f8f9fa;
+}
+/*///////////////////////////////////////////////////////////////////////////////////Navbar ///////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////Main Content///////////////////////////////////////////////////////////////////////////////////////*/
+.infobox {
+  padding: 70px 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#about-us .infobox {
+  background-color: #fff9b0;
+  height: 400px;
+}
+
+#photography .infobox, #social-media .infobox {
+  background-color: #e3d18a;
+  height: 400px;
+}
+
+#video-production .infobox {
+  background-color: #e3d18a;
+}
+
+
+#contacts .infobox {
+  background-color: #fff9b0;
+}
+/*///////////////////////////////////////////////////////////////////////////////////Main Content///////////////////////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////////////////Contacts / Contacts Icons ///////////////////////////////////////////////////////////////////////////////////////*/
+.contact-heading {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
+.fa-map-marker-alt {
+  margin-top: 1.5rem
+}
+
+
+.contact-icon {
+  padding: 2% 7%;
+}
+
+
+.social-links {
+  padding-top: 5rem;
+}
+
+
+.icon {
+  color: #9e7540;
+}
+/*///////////////////////////////////////////////////////////////////////////////////Contacts Icons ///////////////////////////////////////////////////////////////////////////////////////*/
+
+
+#footer {
+  background-color: #9e7540;
+  text-align: center;
+  padding: 30px;
+  font-weight: 600;
+  height: 80px;
+}
