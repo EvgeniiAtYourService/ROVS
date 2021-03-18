@@ -1,5 +1,6 @@
 body {
   background-color: #f2e9d0;
+  background-image: url(background-image.png);
   padding-top: 75px;        /*   to correctly set navbar */
 }
 
