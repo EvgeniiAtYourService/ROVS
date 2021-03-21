@@ -1,15 +1,25 @@
 body {
   background-color: #f2e9d0;
   background-image: url(bgimg.png);
+
+  /*2nd try parallax CSS+JS*/
+    background-position: top center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 80vh;
+    /* width: 100%; */
+
+
   padding-top: 75px;        /*   to correctly set navbar */
 }
 
-.parallax {
+/*1st try parallax*/
+/* .parallax {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 h1 {
   text-align: center;
