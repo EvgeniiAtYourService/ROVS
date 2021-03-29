@@ -15,3 +15,4 @@ document.querySelector("body").onscroll = function myFunction() {
    var yvalue = scrolltotop * factor;
    target.style.backgroundPosition = xvalue + " " + yvalue + "px";
  }
+ 
