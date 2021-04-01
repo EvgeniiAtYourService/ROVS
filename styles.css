@@ -25,6 +25,7 @@ body {
 h1 {
   text-align: center;
   margin: 0 auto;            /* To cover a strange little abyss below */
+  visibility: hidden;
 }
 
 .nav-move {                     /* A div for correct navbar moving */
@@ -71,7 +72,7 @@ h1 {
 }
 
 .nav-item {
-  font-weight: 400;
+  font-weight: 800;
   margin: 0 1.5rem;
 }
 
@@ -90,22 +91,22 @@ h1 {
 }
 
 #about-us .infobox {
-  background-color: #fff9b0;
+  background-color: #4D4D4D;
   height: 400px;
 }
 
 #photography .infobox, #social-media .infobox {
-  background-color: #e3d18a;
+  background-color: #940A35;
   height: 400px;
 }
 
 #video-production .infobox {
-  background-color: #e3d18a;
+  background-color: #940A35;
 }
 
 
 #contacts .infobox {
-  background-color: #fff9b0;
+  background-color: #4D4D4D;
 }
 /*///////////////////////////////////////////////////////////////////////////////////Main Content///////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -124,6 +125,7 @@ h1 {
 
 .contact-icon {
   padding: 2% 7%;
+  font-weight: 800;
 }
 
 
@@ -133,15 +135,15 @@ h1 {
 
 
 .icon {
-  color: #9e7540;
+  color: #black;
 }
 /*///////////////////////////////////////////////////////////////////////////////////Contacts Icons ///////////////////////////////////////////////////////////////////////////////////////*/
 
 
 #footer {
-  background-color: #9e7540;
+  background-color: #940A35;
   text-align: center;
   padding: 30px;
-  font-weight: 600;
+  font-weight:  800;
   height: 80px;
 }
