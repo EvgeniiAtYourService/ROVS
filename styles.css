@@ -11,7 +11,7 @@ body {
     /* background-repeat: no-repeat; */
 
 
-  padding-top: 75px;        /*   to correctly set navbar */
+  /* padding-top: 75px; */       /*   to correctly set navbar */
 }
 
 /*1st try parallax*/
@@ -90,10 +90,35 @@ h1 {
   margin: 0 auto;
 }
 
-#about-us .infobox {
+/* Wapka */
+
+#about-us {
+  background-color: #4d4d4d;
+  border-bottom-left-radius: 100%;
+  box-shadow: 0 4px 2px -2px black;
+  color: white;
+  height: 90vh;
+  padding-left: 240px;
+  position: relative;
+  right: 240px;
+  /* width: 113.8%; */   /* My custom way to increase lenght of the header (Wapka) */
+  width: 100%;
+}
+
+.test-div {   /* This div was made to fill the hole after #about-us (wapka) div */
+  background-color: #4d4d4d;
+  box-shadow: 0 4px 2px -2px black;
+  display: block;
+  height: 90vh;
+  position: absolute;
+  top: 0; right: 0;
+  width: 245px;
+}
+
+/* #about-us .infobox {
   background-color: #4D4D4D;
   height: 400px;
-}
+} */
 
 #photography .infobox, #social-media .infobox {
   background-color: #940A35;
