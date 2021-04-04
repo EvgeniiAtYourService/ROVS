@@ -91,14 +91,11 @@ h1 {
 }
 
 /* Wapka */
-/* .wrap {
-  box-shadow: 0 30px 55px -2px black;
-  border-bottom-left-radius: 100%;
-} */
+
 #about-us {
   background-color: #171717;
   border-bottom-left-radius: 100%;
-  box-shadow: 0 30px 55px -2px black;
+  /* box-shadow: 0 30px 55px -2px black; */
   color: white;
   height: 90vh;
   padding-left: 240px;
@@ -110,21 +107,13 @@ h1 {
 
 .about-us-hole {   /* This div was made to fill the hole after #about-us (wapka) div */
   background-color: #171717;
-  box-shadow: 0 30px 55px -2px black;
+  /* box-shadow: 0 30px 55px -2px black; */
   height: 90vh;
   position: absolute;
   top: 0; right: 0;
-  width: 245px;
+  width: 240px;
 }
 
-/*.about-us-hole-shadow-fix {  A div to make shadow appear only from bottom */
-  /* height: 90vh;
-  position: absolute;
-  top: 0; right: 0;
-  width: 240px;
-  overflow: hidden;
-  padding-bottom: 30px;
-} */
 
 /* #about-us .infobox {
   background-color: #4D4D4D;
