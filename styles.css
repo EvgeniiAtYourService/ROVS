@@ -98,9 +98,10 @@ h1 {
   box-shadow: 0 30px 55px black;
   color: white;
   height: 90vh;
-  padding-left: 240px;
+  padding-left: 14%;
   position: relative;
-  right: 240px;
+  right: 14%;        /* old:240px       !!!FINALLY wapka solved: position: relative, right: 14%, width: 114%, padding-left: 14%; !!!*/
+  width: 114%;
 }
 
 
