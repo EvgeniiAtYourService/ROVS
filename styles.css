@@ -94,25 +94,26 @@ h1 {
 
 #about-us {
   background-color: #171717;
-  border-bottom-left-radius: 100%;
-  /* box-shadow: 0 30px 55px -2px black; */
+  /* border-bottom-left-radius: 100%; */
+  border-radius: 0 0 0 70%;
+  box-shadow: 0 30px 55px black;
   color: white;
   height: 90vh;
-  padding-left: 240px;
+  /* padding-left: 240px;
   position: relative;
-  right: 240px;
+  right: 240px; */
   /* width: 113.8%; */   /* My custom way to increase lenght of the header (Wapka) */
-  width: 100%;
+  /* width: 100%; */
 }
 
-.about-us-hole {   /* This div was made to fill the hole after #about-us (wapka) div */
+/* .about-us-hole {    This div was made to fill the hole after #about-us (wapka) div
   background-color: #171717;
-  /* box-shadow: 0 30px 55px -2px black; */
+  box-shadow: 0 30px 55px -2px black;
   height: 90vh;
   position: absolute;
   top: 0; right: 0;
   width: 240px;
-}
+} */
 
 
 /* #about-us .infobox {
