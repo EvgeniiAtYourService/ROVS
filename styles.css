@@ -121,6 +121,12 @@ h1 {
   height: 400px;
 } */
 
+.testdiv {
+  background-image: url(bgimgdivtest2.png);
+  height: 1050px;
+  width: 100%;
+}
+
 #photography .infobox, #social-media .infobox {
   background-color: #940A35;
   height: 400px;
