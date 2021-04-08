@@ -36,7 +36,7 @@ h1 {
 
 .navbar {
   padding-left: 3rem;
-  padding-right: 8.1rem;          /* left-padding + logo padding but from the right; v.1: 7.2rem */
+  padding-right: 8.9rem;          /* left-padding + logo padding but from the right; v.1: 7.2rem v.2: 8.1*/
 }
 
 @media (max-width: 991px) {
@@ -65,8 +65,9 @@ h1 {
 }
 
 .navbar-brand {
+  color: #DDDDDD;
   margin: 1px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Gruppo', cursive;
   font-size: 2rem;
   font-weight: 400;
 }
