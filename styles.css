@@ -1,3 +1,5 @@
+/* jshint esversion:6 */
+
 body {
   background-color: #171717;
   background-image: url(bgimgfull.png);
@@ -23,9 +25,24 @@ body {
 } */
 
 h1 {
+  color: #DDDDDD;
   text-align: center;
   margin: 0 auto;            /* To cover a strange little abyss below */
-  visibility: hidden;
+}
+
+ h3 { /*some name */
+  color: #DDDDDD;
+  font-family: 'Cinzel', serif;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+}
+
+span {       /* Brand on the bottom */
+  font-family: 'Gruppo', cursive;
+  font-size: 1.7rem;
+  font-weight: 400;
 }
 
 .nav-move {                     /* A div for correct navbar moving */
@@ -86,9 +103,9 @@ h1 {
 
 /*///////////////////////////////////////////////////////////////////////////////////Main Content///////////////////////////////////////////////////////////////////////////////////////*/
 .infobox {
-  padding: 70px 30px;
-  width: 80%;
   margin: 0 auto;
+  padding: 70px 30px;
+  width: 90%;
 }
 
 /* Wapka */
@@ -103,25 +120,67 @@ h1 {
   position: relative;
   right: 14%;        /* old:240px       !!!FINALLY wapka solved: position: relative, right: 14%, width: 114%, padding-left: 14%; !!!*/
   width: 114%;
+
+  color: #DDDDDD;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
 }
 
 
-#photography .infobox, #social-media .infobox {
+/* #photography .infobox, #social-media .infobox {
   background-color: #940A35;
   height: 400px;
+} */
+
+.content-cell {
+  margin-top: 4rem;
 }
 
-#video-production .infobox {
-  background-color: #940A35;
+.content-video {
+  display: block;
+  margin: auto;
+}
+
+.content-photo {
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////////////////////////////////////////////Services ///////////////////////////////////////////////////////////////////////////////////////*/
+#services {
+  background-color: #171717;
+  border-radius: 100% 0 0 0;
+  box-shadow: 0 -30px 55px black;
+  color: white;
+  height: 90vh;
+  padding-left: 14%;
+  position: relative;
+  right: 14%;
+  width: 114%;
+
+
+  color: #DDDDDD;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
 }
 
 
-#contacts .infobox {
-  background-color: #4D4D4D;
-}
-/*///////////////////////////////////////////////////////////////////////////////////Main Content///////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /*///////////////////////////////////////////////////////////////////////////////////Contacts / Contacts Icons ///////////////////////////////////////////////////////////////////////////////////////*/
+
+#contacts .infobox {
+  background-color: #940A35;
+  width: 100%;
+}
+
+
 .contact-heading {
   text-align: center;
   margin-bottom: 3rem;
@@ -148,13 +207,14 @@ h1 {
 .icon {
   color: #black;
 }
-/*///////////////////////////////////////////////////////////////////////////////////Contacts Icons ///////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
-#footer {
-  background-color: #940A35;
-  text-align: center;
-  padding: 30px;
-  font-weight:  800;
+#footer p {
+  background-color: #171717;
+  color: #DDDDDD;
+  font-weight:  500;
   height: 80px;
+  padding: 20px;
+  text-align: center;
 }

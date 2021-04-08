@@ -3,8 +3,9 @@
 
  <head>
    <meta charset="utf-8">
-   <title>🐵 rovstudio</title>
+   <title>ROVS studio</title>
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="icon" href="favicon.ico">
 
    <!-- Google Fonta -->
    <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,11 +14,16 @@
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
 
+   <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- some name -->
+   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+
 
    <link rel="stylesheet" href="styles.css">
  </head>
 
  <body class="parallax">
+
+  <section id="title">
 
 
    <!-- ////////////////////////////////////////////////////// Navigation Bar //////////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -33,12 +39,16 @@
 
        <ul class="navbar-nav mr-auto ml-auto">
 
+         <!-- -about us- link from previous versions- -->
 
-         <li class="nav-item remove-collapse">
+         <!-- <li class="nav-item remove-collapse">
            <a class="nav-link" href="#about-us">About us</a>
-         </li>
+         </li> -->
 
-         <li class="nav-item dropdown">
+
+          <!-- dropdown -Work link- from previous versions -->
+
+         <!-- <li class="nav-item dropdown">
            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
              Work
            </a>
@@ -47,10 +57,18 @@
              <a class="dropdown-item" href="#video-production">Video production</a>
              <a class="dropdown-item" href="#social-media">Social media</a>
            </div>
+         </li> -->
+
+         <li class="nav-item remove-collapse">
+           <a class="nav-link" href="#video-production">Work</a>
          </li>
 
          <li class="nav-item remove-collapse">
-           <a class="nav-link" href="#contacts-heading-ref">Contacts</a>
+           <a class="nav-link" href="#services">Services</a>
+         </li>
+
+         <li class="nav-item remove-collapse">
+           <a class="nav-link" href="#contacts">Contacts</a>
          </li>
 
 
@@ -63,71 +81,119 @@
 
    <div id="about-us" class="nav-move">
      <div class="infobox">
-       <h3>About us</h3>
+       Hi!
      </div>
    </div>
 
 
+ </section>
 
 
+<section id="work">
 
-   <h1 class="nav-move">Work</h1>
-
-
-
-
-
-
-   <div id="photography" class="nav-move">
-     <div class="infobox">
-       <h3>Photography</h3>
-     </div>
-   </div>
-
-
-
-
-
-   <div id="video-production" class="nav-move">
-     <div class="infobox">
-       <h3>Video production</h3>
+     <div id="video-production" class="infobox">
        <div class="container-fluid">
+
          <div class="row">
-           <video src="https://static.videezy.com/system/resources/previews/000/044/479/original/banana.mp4" muted playsinline autoplay loop height="400" width="400" class="col-lg-4 col-xl-4">
-             There should have been a video ...
-           </video>
-           <video src="https://static.videezy.com/system/resources/previews/000/044/479/original/banana.mp4" muted playsinline autoplay loop height="400" width="400" class="col-lg-4 col-xl-4">
-             There should have been a video ...
-           </video>
-           <video src="https://static.videezy.com/system/resources/previews/000/044/479/original/banana.mp4" muted playsinline autoplay loop height="400" width="400" class="col-lg-4 col-xl-4">
-             There should have been a video ...
-           </video>
-         </div>
+
+           <div class="content-cell col-lg-4 col-xl-4">
+             <h3>Some Name</h3>
+             <video src="https://static.videezy.com/system/resources/previews/000/044/479/original/banana.mp4" muted playsinline autoplay loop height="280" width="500" class="content-video">
+               There should have been a video ...
+             </video>
+           </div>
+
+           <div class="content-cell col-lg-4 col-xl-4">
+             <h3>Some Name</h3>
+             <video src="https://static.videezy.com/system/resources/previews/000/044/479/original/banana.mp4" muted playsinline autoplay loop height="280" width="500" class="content-video">
+               There should have been a video ...
+             </video>
+           </div>
+
+           <div class="content-cell col-lg-4 col-xl-4">
+             <h3>Some Name</h3>
+             <video src="https://static.videezy.com/system/resources/previews/000/044/479/original/banana.mp4" muted playsinline autoplay loop height="280" width="500" class="content-video">
+               There should have been a video ...
+             </video>
+           </div>
+
        </div>
+
+       <div class="row">
+
+          <div class="content-cell col-md-6 col-lg-3 col-xl-3">
+             <h3>Some Name</h3>
+             <img class="content-photo" src="1.jpeg" alt="">
+          </div>
+
+          <div class="content-cell col-md-6 col-lg-3 col-xl-3">
+             <h3>Some Name</h3>
+             <img class="content-photo" src="2.jpg" alt="">
+          </div>
+
+          <div class="content-cell col-md-6 col-lg-3 col-xl-3">
+             <h3>Some Name</h3>
+             <img class="content-photo" src="3.png" alt="">
+          </div>
+
+          <div class="content-cell col-md-6 col-lg-3 col-xl-3">
+             <h3>Some Name</h3>
+             <img class="content-photo" src="4.jpg" alt="">
+          </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="content-cell col-md-6 col-lg-4 col-xl-4">
+           <h3>Some Name</h3>
+           <img class="content-photo" src="7.jpg" alt="">
+        </div>
+
+        <div class="content-cell col-md-6 col-lg-4 col-xl-4">
+           <h3>Some Name</h3>
+           <img class="content-photo" src="6.jpg" alt="">
+        </div>
+
+        <div class="content-cell col-md-6 col-lg-4 col-xl-4">
+           <h3>Some Name</h3>
+           <img class="content-photo" src="5.jpg" alt="">
+        </div>
+
+      </div>
+
      </div>
    </div>
 
 
 
-
-   <div id="social-media" class="nav-move">
+   <!-- <div id="social-media" class="nav-move">
      <div class="infobox">
        <h3>Social media</h3>
      </div>
-   </div>
+   </div> -->
 
 
+</section>
 
 
+<section id="Services">
 
 
-   <h1 id="contacts-heading-ref" class="nav-move">Contacts</h1>
+  <div id="services" class="nav-move">
+    <div class="infobox">
+      Services
+    </div>
+  </div>
 
 
+</section>
 
 
+<sections id="Contacts">
 
-   <div id="contacts" class="nav-move">
+
+   <div id="contacts">
      <div class="infobox">
 
 
@@ -182,11 +248,11 @@
      </div>
    </div>
 
-
+</sections>
 
 
    <section id="footer">
-     <p class="nomargin copyright">rovs production, Prague</p>
+     <p class="nomargin copyright"><span>ROVS</span> production, Prague</p>
    </section>
 
 
