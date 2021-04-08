@@ -14,8 +14,9 @@
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
 
-   <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- some name -->
-   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+   <!-- some name -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
 
 
    <link rel="stylesheet" href="styles.css">
@@ -89,7 +90,7 @@
  </section>
 
 
-<section id="work">
+<section id="work">  <!-- col добавил ко всем элементам родителя, чтобы при изменения размера каждый элемент content-cell тоже менял размер, как оказалось col работаем, вычислил это путем сравнения с прошлой версией, а сам родитель где есть col и col-lg-..... всегда меняет размер, сначала хотел col-lg-... добавить к самому элементу (видео, фото) но это плохо работает, когда намн нужно в одной _ячейке_ несколько элементов! -->
 
      <div id="video-production" class="infobox">
        <div class="container-fluid">
@@ -97,22 +98,22 @@
          <div class="row">
 
            <div class="content-cell col-lg-4 col-xl-4">
-             <h3>Some Name</h3>
-             <video src="https://static.videezy.com/system/resources/previews/000/044/479/original/banana.mp4" muted playsinline autoplay loop height="280" width="500" class="content-video">
+             <h3 class="col">Some Name</h3>
+             <video src="https://static.videezy.com/system/resources/previews/000/044/479/original/banana.mp4" muted playsinline autoplay loop height="280" width="500" class="content-video col">
                There should have been a video ...
              </video>
            </div>
 
            <div class="content-cell col-lg-4 col-xl-4">
-             <h3>Some Name</h3>
-             <video src="https://static.videezy.com/system/resources/previews/000/044/479/original/banana.mp4" muted playsinline autoplay loop height="280" width="500" class="content-video">
+             <h3 class="col">Some Name</h3>
+             <video src="https://static.videezy.com/system/resources/previews/000/044/479/original/banana.mp4" muted playsinline autoplay loop height="280" width="500" class="content-video col">
                There should have been a video ...
              </video>
            </div>
 
            <div class="content-cell col-lg-4 col-xl-4">
-             <h3>Some Name</h3>
-             <video src="https://static.videezy.com/system/resources/previews/000/044/479/original/banana.mp4" muted playsinline autoplay loop height="280" width="500" class="content-video">
+             <h3 class="col">Some Name</h3>
+             <video src="https://static.videezy.com/system/resources/previews/000/044/479/original/banana.mp4" muted playsinline autoplay loop height="280" width="500" class="content-video col">
                There should have been a video ...
              </video>
            </div>
@@ -122,23 +123,23 @@
        <div class="row">
 
           <div class="content-cell col-md-6 col-lg-3 col-xl-3">
-             <h3>Some Name</h3>
-             <img class="content-photo" src="1.jpeg" alt="">
+             <h3 class="col">Some Name</h3>
+             <img class="content-photo col" src="1.jpeg" alt="">
           </div>
 
           <div class="content-cell col-md-6 col-lg-3 col-xl-3">
-             <h3>Some Name</h3>
-             <img class="content-photo" src="2.jpg" alt="">
+             <h3 class="col">Some Name</h3>
+             <img class="content-photo col" src="2.jpg" alt="">
           </div>
 
           <div class="content-cell col-md-6 col-lg-3 col-xl-3">
-             <h3>Some Name</h3>
-             <img class="content-photo" src="3.png" alt="">
+             <h3 class="col">Some Name</h3>
+             <img class="content-photo col" src="3.png" alt="">
           </div>
 
           <div class="content-cell col-md-6 col-lg-3 col-xl-3">
-             <h3>Some Name</h3>
-             <img class="content-photo" src="4.jpg" alt="">
+             <h3 class="col">Some Name</h3>
+             <img class="content-photo col" src="4.jpg" alt="">
           </div>
 
       </div>
@@ -146,18 +147,18 @@
       <div class="row">
 
         <div class="content-cell col-md-6 col-lg-4 col-xl-4">
-           <h3>Some Name</h3>
-           <img class="content-photo" src="7.jpg" alt="">
+           <h3 class="col">Some Name</h3>
+           <img class="content-photo col" src="7.jpg" alt="">
         </div>
 
         <div class="content-cell col-md-6 col-lg-4 col-xl-4">
-           <h3>Some Name</h3>
-           <img class="content-photo" src="6.jpg" alt="">
+           <h3 class="col">Some Name</h3>
+           <img class="content-photo col" src="6.jpg" alt="">
         </div>
 
         <div class="content-cell col-md-6 col-lg-4 col-xl-4">
-           <h3>Some Name</h3>
-           <img class="content-photo" src="5.jpg" alt="">
+           <h3 class="col">Some Name</h3>
+           <img class="content-photo col" src="5.jpg" alt="">
         </div>
 
       </div>
