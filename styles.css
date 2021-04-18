@@ -16,6 +16,10 @@ body {
   /* padding-top: 75px; */       /*   to correctly set navbar */
 }
 
+html {
+scroll-behavior: smooth;
+}
+
 /*1st try parallax*/
 /* .parallax {
   background-attachment: fixed;
@@ -43,6 +47,8 @@ span {       /* Brand on the bottom */
   font-size: 1.7rem;
   font-weight: 400;
 }
+
+
 
 .nav-move {                     /* A div for correct navbar moving */
   padding: 100px 0;
