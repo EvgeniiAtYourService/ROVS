@@ -58,7 +58,7 @@ span {       /* Brand on the bottom */
 
 .navbar {
   padding-left: 3rem;
-  padding-right: 8.9rem;          /* left-padding + logo padding but from the right; v.1: 7.2rem v.2: 8.1*/
+  padding-right: 3rem;          /* left-padding + logo padding but from the right; v.1: 7.2rem; v.2: 8.1; v.3 8.9 rem*/
 }
 
 @media (max-width: 991px) {
@@ -75,6 +75,11 @@ span {       /* Brand on the bottom */
     background-image: url(bgimgsmall.png);  /* New version of background image for smaller screens */
   }
 
+  a.back-to-top { /* without ( a ) doesnt work idk why */
+    top: 100px;
+    right: 2.77rem;   /* manually selected value*/
+  }
+
 }
 
 @media (max-width: 576px) {
@@ -88,10 +93,22 @@ span {       /* Brand on the bottom */
 
 .navbar-brand {
   color: #DDDDDD;
-  margin: 1px;
+  display: none;
   font-family: 'Gruppo', cursive;
   font-size: 2rem;
   font-weight: 400;
+  margin: 1px;
+}
+
+.brand {
+  color: #DDDDDD;
+  font-family: 'Gruppo', cursive;
+  font-size: 2rem;
+  font-weight: 400;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  z-index: 1;
 }
 
 .nav-item {
@@ -103,6 +120,34 @@ span {       /* Brand on the bottom */
   background-color: #f8f9fa;
 }
 /*///////////////////////////////////////////////////////////////////////////////////Navbar ///////////////////////////////////////////////////////////////////////////////////////*/
+.back-to-top {
+  font-size: 2.3rem;
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  z-index: 1;
+  color: #e2e2e2;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: all .4s;
+
+  /* display: none; */
+}
+
+.back-to-top:hover {
+  color: grey ;
+}
+
+.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.footer-button-color {
+  color: #171717;
+}
+
 
 
 
@@ -130,6 +175,7 @@ span {       /* Brand on the bottom */
   font-size: 2.5rem;
   font-weight: 600;
   text-align: center;
+  z-index: 0;
 }
 
 
@@ -181,7 +227,7 @@ span {       /* Brand on the bottom */
 /*///////////////////////////////////////////////////////////////////////////////////Contacts / Contacts Icons ///////////////////////////////////////////////////////////////////////////////////////*/
 
 #contacts .infobox {
-  background-color: #940A35;
+  background-color: #e2e2e2;
   width: 100%;
 }
 

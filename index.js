@@ -14,4 +14,24 @@ document.querySelector("body").onscroll = function myFunction() {
    var factor = 0.5;
    var yvalue = scrolltotop * factor;
    target.style.backgroundPosition = xvalue + " " + yvalue + "px";
+
+
+   //Back to Top button
+   if ($(this).scrollTop() > 500) {
+   				// document.querySelector(".back-to-top").style.display = "inline";
+          document.querySelector(".back-to-top").classList.add("active");
+   			} else {
+   				document.querySelector(".back-to-top").classList.remove("active");
+   			}
+
+
+    //Change button color when at white footer section
+    if ($(this).scrollTop() > 5850) {
+    // document.querySelector(".back-to-top").style.display = "inline";
+    document.querySelector(".back-to-top").classList.add("footer-button-color");
+    } else {
+    document.querySelector(".back-to-top").classList.remove("footer-button-color");
+    }
+
+      // console.log(window.scrollY); //to determine how many pixels the user scroll
  }
