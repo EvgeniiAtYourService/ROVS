@@ -58,7 +58,11 @@ span {       /* Brand on the bottom */
 
 .navbar {
   padding-left: 3rem;
-  padding-right: 3rem;          /* left-padding + logo padding but from the right; v.1: 7.2rem; v.2: 8.1; v.3 8.9 rem*/
+  padding-right: 3rem;          /* left-padding + logo padding but from the right; v.1: 7.2rem; v.2: 8.1; v.3 8.9 rem; last version: 3rem*/
+}
+
+.navbar-nav {                  /* to align word services with other text on page */
+  padding-left: 1.2rem;
 }
 
 @media (max-width: 991px) {
