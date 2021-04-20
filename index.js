@@ -18,7 +18,7 @@ document.querySelector("body").onscroll = function myFunction() {
 
    //Back to Top button
    if ($(this).scrollTop() > 500) {
-   				// document.querySelector(".back-to-top").style.display = "inline";
+   				// document.querySelector(".back-to-top").style.display = "inline";       version with block -> inline display
           document.querySelector(".back-to-top").classList.add("active");
    			} else {
    				document.querySelector(".back-to-top").classList.remove("active");
@@ -33,5 +33,5 @@ document.querySelector("body").onscroll = function myFunction() {
     document.querySelector(".back-to-top").classList.remove("footer-button-color");
     }
 
-      // console.log(window.scrollY); //to determine how many pixels the user scroll
+      // console.log(window.scrollY); //to determine how many pixels the user scrolled
  }
