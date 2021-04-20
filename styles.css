@@ -279,12 +279,12 @@ span {       /* Brand on the bottom */
   margin-top: 2rem;
 }
 /*unstyling insta link*/
-.instagram-link-icon {
+.clickable-icon {
   color: black;
   text-decoration: none;
 }
 
-.instagram-link-icon:hover {
+.clickable-icon:hover {
   color: grey;
   text-decoration: none;
 }
