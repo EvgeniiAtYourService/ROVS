@@ -26,7 +26,7 @@ document.querySelector("body").onscroll = function myFunction() {
 
 
     //Change button color when at white footer section
-    if ($(this).scrollTop() > 10500) {
+    if ($(this).scrollTop() > 13000) {
     // document.querySelector(".back-to-top").style.display = "inline";
     document.querySelector(".back-to-top").classList.add("footer-button-color");
     } else {
