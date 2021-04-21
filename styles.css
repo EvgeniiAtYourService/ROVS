@@ -93,6 +93,11 @@ span {       /* Brand on the bottom */
   background-color: #f8f9fa;
 }
 
+.navbar-toggler-icon {
+  height: 150px;
+  width: 150px;
+}
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////////////Back to top button ///////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -265,11 +270,11 @@ span {       /* Brand on the bottom */
   }
 
   span {
-    font-size: 2.75rem;
+    font-size: 3.5rem;
   }
 
   .brand {
-    font-size: 2.75rem;
+    font-size: 3.5rem;
   }
 
                                       /*  */
@@ -285,16 +290,16 @@ span {       /* Brand on the bottom */
   }
 
   .nav-item {
-    font-size: 2.2rem;
+    font-size: 2.75rem;
   }
 
                                         /*  */
                                         /* Back to top button */
 
   a.back-to-top {         /* without ( a ) doesnt work idk why */
-    top: 100px;
-    right: 2.75rem;       /* manually selected value*/
-    font-size: 3rem;
+    top: 300px;
+    right: 55px;       /* manually selected value*/
+    font-size: 5rem;
   }
 
                                         /*  */
