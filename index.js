@@ -35,6 +35,5 @@ document.querySelector("body").onscroll = function myFunction() {
       //console.log(window.scrollY); //to determine how many pixels the user scrolled
       //9350 10400 values of scrolling last: 9850
 
-
  }
  // document.querySelector(".back-to-top").style.display = "inline"; // Other way to do appearing of the button
