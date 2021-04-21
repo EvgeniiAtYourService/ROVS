@@ -265,6 +265,21 @@ span {       /* Brand on the bottom */
     right: 2.0323rem;                       /* manually selected value*/
     font-size: 3rem;
   }
+                                            /* Work section */
+  #work .infobox {
+    padding: 70px 0;
+    width: 100%;
+  }
+
+  .content-photo {
+    width: 420px;
+  }
+
+  .content-video {
+    height: 400px;
+  }
+
+                                            /*  */
 
   #about-us.nav-move {                      /* не работает медиа куери с одним #about-us */
     padding-left: 54%;
