@@ -27,10 +27,8 @@ document.querySelector("body").onscroll = function myFunction() {
 
     //Change button color when at white footer section
     if ($(this).scrollTop() > 9850) {
-    document.querySelector(".back-to-top").classList.add("active");
     document.querySelector(".back-to-top").classList.add("footer-button-color");
     } else {
-    document.querySelector(".back-to-top").classList.add("active");
     document.querySelector(".back-to-top").classList.remove("footer-button-color");
     }
 
