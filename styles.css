@@ -165,9 +165,9 @@ span {       /* Brand on the bottom */
   margin: auto;
 }
 
-.rm-margin-bot {
+/* .rm-margin-bot {
   margin-bottom: 0;
-}
+} */
 
 .content-photo {
   display: block;
@@ -297,7 +297,7 @@ span {       /* Brand on the bottom */
                                         /* Back to top button */
 
   a.back-to-top {         /* without ( a ) doesnt work idk why */
-    top: 300px;
+    top: 225px;
     right: 60px;       /* manually selected value*/
     font-size: 5rem;
   }
