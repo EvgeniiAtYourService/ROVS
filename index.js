@@ -17,7 +17,7 @@ document.querySelector("body").onscroll = function myFunction() {
 
 
    //Back to Top button
-   if ($(this).scrollTop() > 500 || $(this).scrollTop() > 8000) {    // The button disappears at the bottom on mobile for some reason, that's why ... > 8000 (testing)//
+   if ($(this).scrollTop() > 500 || $(this).scrollTop() > 12000) {    // The button disappears at the bottom on mobile for some reason, that's why ... > 8000 (testing)//
    				// document.querySelector(".back-to-top").style.display = "inline";       version with block -> inline display
           document.querySelector(".back-to-top").classList.add("active");
    			} else {
