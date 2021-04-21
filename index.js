@@ -17,7 +17,7 @@ document.querySelector("body").onscroll = function myFunction() {
 
 
    //Back to Top button
-   if ($(this).scrollTop() > 500 || $(this).scrollTop() > 12000) {    // The button disappears at the bottom on mobile for some reason, that's why ... > 8000 (testing)//
+   if ($(this).scrollTop() > 500) {
    				// document.querySelector(".back-to-top").style.display = "inline";       version with block -> inline display
           document.querySelector(".back-to-top").classList.add("active");
    			} else {
@@ -26,7 +26,7 @@ document.querySelector("body").onscroll = function myFunction() {
 
 
     //Change button color when at white footer section
-    if ($(this).scrollTop() > 9850) {
+    if ($(this).scrollTop() > 10500) {
     // document.querySelector(".back-to-top").style.display = "inline";
     document.querySelector(".back-to-top").classList.add("footer-button-color");
     } else {
@@ -34,5 +34,5 @@ document.querySelector("body").onscroll = function myFunction() {
     }
 
       //console.log(window.scrollY); //to determine how many pixels the user scrolled
-      //9350 10400 values of scrolling
+      //9350 10400 values of scrolling last: 9850
  }
