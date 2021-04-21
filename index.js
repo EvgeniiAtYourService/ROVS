@@ -26,12 +26,13 @@ document.querySelector("body").onscroll = function myFunction() {
 
 
     //Change button color when at white footer section
-    if ($(this).scrollTop() > 5850) {
+    if ($(this).scrollTop() > 10400) {
     // document.querySelector(".back-to-top").style.display = "inline";
     document.querySelector(".back-to-top").classList.add("footer-button-color");
     } else {
     document.querySelector(".back-to-top").classList.remove("footer-button-color");
     }
 
-      // console.log(window.scrollY); //to determine how many pixels the user scrolled
+      //console.log(window.scrollY); //to determine how many pixels the user scrolled
+      //9350 10400 values of scrolling
  }

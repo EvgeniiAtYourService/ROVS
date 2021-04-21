@@ -30,17 +30,20 @@ scroll-behavior: smooth;
   background-size: cover;
 } */
 
+ h2 {
+   font-size: 2.2rem;
+ }
+
  h3 { /*some name */
   color: #DDDDDD;
   font-family: 'Dela Gothic One', cursive;
   margin-bottom: 1.5rem;
   text-align: center;
-
 }
 
 span {       /* Brand on the bottom */
   font-family: 'Gruppo', cursive;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 400;
 }
 
@@ -57,7 +60,7 @@ span {       /* Brand on the bottom */
 }
 
 .navbar-nav {                  /* to align word services with other text on page */
-  padding-left: 1.2rem;
+  padding-left: 1.5rem;
 }
 
 .navbar-brand {      /* disabled */
@@ -72,7 +75,7 @@ span {       /* Brand on the bottom */
 .brand {
   color: #DDDDDD;
   font-family: 'Gruppo', cursive;
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 400;
   position: absolute;
   top: 20px;
@@ -81,6 +84,7 @@ span {       /* Brand on the bottom */
 }
 
 .nav-item {
+  font-size: 1.15rem;
   font-weight: 800;
   margin: 0 1.5rem;
 }
@@ -156,6 +160,10 @@ span {       /* Brand on the bottom */
   margin: auto;
 }
 
+.rm-margin-bot {
+  margin-bottom: 0;
+}
+
 .content-photo {
   display: block;
   margin: auto;
@@ -202,6 +210,7 @@ span {       /* Brand on the bottom */
 .contact-cell {
   color: #black;
   padding: 2% 7%;
+  font-size: 1.1rem;
   font-weight: 800;
 }
 
@@ -251,7 +260,22 @@ span {       /* Brand on the bottom */
     background-image: url(bgimgsmall.png);  /* New version of background image for smaller screens */
   }
 
-  .nav-move {                               /* A div for correct navbar moving */
+  h2 {
+    font-size: 3rem;
+  }
+
+  span {
+    font-size: 2.75rem;
+  }
+
+  .brand {
+    font-size: 2.75rem;
+  }
+
+                                      /*  */
+                                      /* Navbar */
+
+  .nav-move {              /* A div for correct navbar moving */
     padding: 200px 0;
   }
 
@@ -260,37 +284,90 @@ span {       /* Brand on the bottom */
     padding-right: 3rem;
   }
 
-  a.back-to-top {                           /* without ( a ) doesnt work idk why */
+  .nav-item {
+    font-size: 2.2rem;
+  }
+
+                                        /*  */
+                                        /* Back to top button */
+
+  a.back-to-top {         /* without ( a ) doesnt work idk why */
     top: 100px;
-    right: 2.0323rem;                       /* manually selected value*/
+    right: 2.75rem;       /* manually selected value*/
     font-size: 3rem;
   }
-                                            /* Work section */
-  #work .infobox {
-    padding: 70px 0;
-    width: 100%;
+
+                                        /*  */
+                                        /* Work Section */
+
+   #work .infobox {
+   padding: 70px 0;
+   width: 100%;
+  }
+
+  #work h3 {
+    font-size: 3.75rem;
+  }
+
+  .content-cell {
+    margin-top: 8rem;
   }
 
   .content-photo {
-    width: 500px;
+    width: 650px;
   }
 
   .content-video {
-    height: 350px;
+    height: 400px;
   }
 
                                             /*  */
+                                            /* Header */
 
-  #about-us.nav-move {                      /* не работает медиа куери с одним #about-us */
+  #about-us.nav-move {      /* не работает медиа куери с одним #about-us */
     padding-left: 54%;
     right: 54%;
     width: 154%;
   }
+
+                                          /*  */
+                                          /* Services section  */
 
   #services.nav-move {
     padding-left: 54%;
     right: 54%;
     width: 154%;
+  }
+
+                                            /*  */
+                                            /* Contacts-section */
+
+  #contacts-section {
+    font-size: 1.5rem;
+  }
+
+  #contacts .infobox {
+    padding: 70px 0;
+    width: 100%;
+  }
+
+  .contacts-container {
+    width: 100%;
+  }
+
+  .contact-cell {
+    font-size: 1.5rem;
+  }
+
+  p.lang-info {
+    font-size: 2rem;
+  }
+
+                                            /*  */
+                                            /* Footer */
+
+  #footer p {
+    font-size: 1.5rem;
   }
 
 }
