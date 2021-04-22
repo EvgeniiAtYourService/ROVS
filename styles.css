@@ -358,11 +358,12 @@ span {       /* Brand on the bottom */
   }
 
   .contacts-container {
-    width: 100%;
+    width: 82.5%;
   }
 
   .contact-cell {
     font-size: 1.5rem;
+    padding: 2% 7%;
   }
 
   p.lang-info {
