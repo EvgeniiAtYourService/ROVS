@@ -43,7 +43,7 @@ scroll-behavior: smooth;
  h3 { /*some name */
   color: #DDDDDD;
   font-weight: 700;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -149,7 +149,6 @@ span {       /* Brand on the bottom */
   box-shadow: 0 30px 55px black;
   color: #DDDDDD;
   font-size: 2.5rem;
-  font-weight: 400;
   height: 90vh;
   padding-left: 14%;
   position: relative;
@@ -190,7 +189,6 @@ span {       /* Brand on the bottom */
   box-shadow: 0 -30px 55px black;
   color: #DDDDDD;
   font-size: 2.5rem;
-  font-weight: 400;
   height: 90vh;
   padding-left: 14%;
   position: relative;
@@ -244,7 +242,6 @@ span {       /* Brand on the bottom */
 
 .lang-info {
   font-size: 1.5rem;
-  font-weight: 400;
   margin-top: 2rem;
 }
 
