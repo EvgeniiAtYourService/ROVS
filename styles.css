@@ -102,24 +102,26 @@ span {       /* Brand on the bottom */
 /*///////////////////////////////////////////////////////////////////////////////////Back to top button ///////////////////////////////////////////////////////////////////////////////////////////*/
 
 .back-to-top {
-  font-size: 1.5rem;
-  position: fixed;
-  top: 60px;
-  right: 40px;
-  z-index: 1;
   color: #e2e2e2;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.5rem;
   opacity: 0;
-  pointer-events: none;
-  transition: all .4s;          /* Other way to do: display: none; */
+  position: fixed;
+  right: 40px;
+  top: 60px;
+  transform: translateY(100px);
+  transition: all .5s ease;
+  z-index: 100;
 }
 
 .back-to-top:hover {
   color: grey ;
 }
 
-.active {
+.show-btn {
   opacity: 1;
-  pointer-events: auto;
+  transform: translateY(0)
 }
 
 .footer-button-color {
