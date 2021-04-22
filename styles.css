@@ -219,7 +219,6 @@ span {       /* Brand on the bottom */
   color: #black;
   padding: 2% 7%;
   font-size: 1.25rem;
-  font-weight: 700;
 }
 
 .fa-map-marker-alt, .fa-instagram {      /* some font-awesome icons have margin-top and some doesn't ; The value was determined using chrome dev tools */
