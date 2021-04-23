@@ -177,7 +177,8 @@ span {       /* Brand on the bottom */
 .content-photo {
   display: block;
   margin: auto;
-  width: 300px;
+  height: 525px;
+  width: 350px;
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -320,11 +321,13 @@ span {       /* Brand on the bottom */
   }
 
   .content-photo {
+    height: 975px;
     width: 650px;
   }
 
   .content-video {
-    height: 400px;
+    height: 975px;
+    width: 650px;
   }
 
                                             /*  */
