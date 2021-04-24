@@ -168,10 +168,12 @@ span {       /* Brand on the bottom */
 .content-video {
   display: block;
   margin: auto;
+  height: 600;
+  width: 400;
 }
 
 .pull-vid {
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 /* .rm-margin-bot {
@@ -333,10 +335,11 @@ span {       /* Brand on the bottom */
     width: 650px;
   }
 
-  .content-video {
+  /* Testing green frame changes on mobile */
+  /* .content-video {
     height: 975px;
     width: 650px;
-  }
+  } */
 
                                             /*  */
                                             /* Header */
