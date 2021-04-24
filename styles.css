@@ -170,6 +170,10 @@ span {       /* Brand on the bottom */
   margin: auto;
 }
 
+.pull-vid {
+  margin-top: 8rem;
+}
+
 /* .rm-margin-bot {
   margin-bottom: 0;
 } */
