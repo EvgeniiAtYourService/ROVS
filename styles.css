@@ -160,10 +160,10 @@ span {       /* Brand on the bottom */
 
 .motto {
   /* font-size: 6.5rem; */
-  font-size: 5vw; /* Using vw to make text responsive */
+  font-size: 6vw; /* Using vw to make text responsive */
   font-weight: 900;
   line-height: 1.25;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   text-align: right;
 }
 
@@ -338,7 +338,7 @@ span {       /* Brand on the bottom */
                                             /* Header */
 
   #about-us.nav-move {      /* не работает медиа куери с одним #about-us */
-    height: 140vh;     /* +50vh to properly place text  */
+    height: 1250px;     /* +50vh to properly place text  */
     padding-left: 84%; /* +30% to properly place text  */
     right: 84%;
     width: 184%;
@@ -392,3 +392,14 @@ span {       /* Brand on the bottom */
   }
 
 }
+
+
+
+/* @media (max-width: 1451px) {
+
+  .motto {
+    font-size: 4.5vw;
+    margin-bottom: 4.5rem;
+  }
+
+} */
