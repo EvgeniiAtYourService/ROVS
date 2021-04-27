@@ -99,19 +99,14 @@ span {       /* Brand on the bottom */
   background-color: #f8f9fa;
 }
 
-.navbar-toggler-icon {
-  height: 150px;
-  width: 150px;
-}
-
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////////////////Back to top button ///////////////////////////////////////////////////////////////////////////////////////////*/
 
 .back-to-top {
   font-size: 1.5rem;
   position: fixed;
-  top: 60px;
-  right: 40px;
+  top: 80px;
+  right: 60px;
   z-index: 1;
   color: #e2e2e2;
   opacity: 0;
@@ -301,6 +296,11 @@ span {       /* Brand on the bottom */
 
   .nav-item {
     font-size: 2.75rem;
+  }
+
+  .navbar-toggler-icon {
+    height: 150px;
+    width: 150px;
   }
 
                                         /*  */
