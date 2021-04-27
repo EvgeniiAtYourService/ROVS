@@ -158,6 +158,15 @@ span {       /* Brand on the bottom */
   z-index: 0;
 }
 
+.motto {
+  /* font-size: 6.5rem; */
+  font-size: 5vw; /* Using vw to make text responsive */
+  font-weight: 900;
+  line-height: 1.25;
+  margin-bottom: 3rem;
+  text-align: right;
+}
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*//////////////////////////////////////////////////////////////////////////////////////// Work section ///////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -329,15 +338,21 @@ span {       /* Brand on the bottom */
                                             /* Header */
 
   #about-us.nav-move {      /* не работает медиа куери с одним #about-us */
-    padding-left: 54%;
-    right: 54%;
-    width: 154%;
+    height: 140vh;     /* +50vh to properly place text  */
+    padding-left: 84%; /* +30% to properly place text  */
+    right: 84%;
+    width: 184%;
+  }
+
+  .motto {
+    font-size: 11vw;
+    margin-bottom: 6rem;
   }
 
                                           /*  */
                                           /* Services section  */
 
-  #services.nav-move {
+   #services.nav-move {
     padding-left: 54%;
     right: 54%;
     width: 154%;
