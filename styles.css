@@ -163,7 +163,7 @@ span {       /* Brand on the bottom */
   font-size: 6vw; /* Using vw to make text responsive */
   font-weight: 900;
   line-height: 1.25;
-  /* margin-bottom: 3rem; */
+  margin-bottom: 3rem;
   text-align: right;
 }
 
@@ -267,6 +267,22 @@ span {       /* Brand on the bottom */
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////////////// Media Query ////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+@media (max-width: 1451px) {
+
+  .motto {
+    font-size: 5vw;
+    margin-bottom: 3rem;
+  }
+
+}
+
+
+
+
 
 @media (max-width: 991px) {
 
@@ -395,11 +411,4 @@ span {       /* Brand on the bottom */
 
 
 
-/* @media (max-width: 1451px) {
 
-  .motto {
-    font-size: 4.5vw;
-    margin-bottom: 4.5rem;
-  }
-
-} */
