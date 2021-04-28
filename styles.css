@@ -200,7 +200,8 @@ nav.navbar {      /* temporarily disabled */
   box-shadow: 0 -30px 55px black;
   color: #DDDDDD;
   font-size: 2.5rem;
-  height: 90vh;
+  /* height: 90vh; */
+  height: 800px;
   padding-left: 14%;
   position: relative;
   right: 14%;
@@ -229,7 +230,7 @@ nav.navbar {      /* temporarily disabled */
 }
 
 .services-cell {
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -403,9 +404,6 @@ nav.navbar {      /* temporarily disabled */
     font-size: 3.5vw;
   }
   
-  .services-cell {
-    margin-top: 10rem;
-  }
 
                                             /*  */
                                             /* Contacts-section */
