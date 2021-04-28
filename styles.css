@@ -42,6 +42,7 @@ scroll-behavior: smooth;
 
  h3 { /*some name */
   color: #DDDDDD;
+  font-size: 1.4vw;
   font-weight: 700;
   margin-bottom: 1rem;
   text-align: center;
