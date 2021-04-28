@@ -56,6 +56,10 @@ span {       /* Brand on the bottom */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////////// Navbar //////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+nav.navbar {      /* temporarily disabled */
+  display: none;
+}
+
 .nav-move {                     /* A div for correct navbar moving */
   padding: 100px 0;
 }
@@ -67,6 +71,7 @@ span {       /* Brand on the bottom */
 
 .navbar-nav {                  /* to align word services with other text on page */
   padding-left: 1.5rem;
+
 }
 
 .navbar-brand {      /* disabled */
@@ -105,8 +110,8 @@ span {       /* Brand on the bottom */
 .back-to-top {
   font-size: 1.5rem;
   position: fixed;
-  top: 80px;
-  right: 60px;
+  top: 60px;
+  right: 40px;
   z-index: 1;
   color: #e2e2e2;
   opacity: 0;
@@ -307,7 +312,7 @@ span {       /* Brand on the bottom */
                                         /* Back to top button */
 
   a.back-to-top {         /* without ( a ) doesnt work idk why */
-    top: 225px;
+    top: 60px;
     right: 60px;       /* manually selected value*/
     font-size: 5rem;
   }
