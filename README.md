@@ -3,3 +3,5 @@
 https://evgeniiatyourservice.github.io/rovstest/
 
 ##### Designed by ROVS, developed by Evgenii Tokarev.
+
+##### Includes mobile adaptation.

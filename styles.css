@@ -40,14 +40,6 @@ scroll-behavior: smooth;
    font-weight: 900;
  }
 
- h3 { /*some name */
-  color: #DDDDDD;
-  font-size: 1.4vw;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
 span {       /* Brand on the bottom */
   font-family: 'Gruppo', cursive;
   font-size: 2rem;
@@ -176,6 +168,14 @@ nav.navbar {      /* temporarily disabled */
   margin-top: 4rem;
 }
 
+#work h3 { /*some name */
+  color: #DDDDDD;
+  font-size: 1.4vw;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
 .content-box {
   display: block;
   margin: auto;
@@ -206,6 +206,30 @@ nav.navbar {      /* temporarily disabled */
   right: 14%;
   text-align: center;
   width: 114%;
+}
+
+#services h2 {
+  position: relative;
+  top: 2.25rem;
+}
+
+#services h3 { 
+  color: #DDDDDD;
+  font-size: 1.7vw;
+  font-weight: 900;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+#services p {
+  color: #DDDDDD;
+  font-size: 1.3vw;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.services-cell {
+  margin-top: 10rem;
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -360,9 +384,27 @@ nav.navbar {      /* temporarily disabled */
                                           /* Services section  */
 
    #services.nav-move {
-    padding-left: 54%;
-    right: 54%;
-    width: 154%;
+     height: 2050px;
+    padding-left: 127%;
+    right: 127%;
+    width: 227%;
+  }
+
+  #services h2 {
+    position: static;
+  }
+
+  #services h3 { 
+    font-size: 4.5vw;
+    margin-bottom: 4rem;
+  }
+  
+  #services p {
+    font-size: 3.5vw;
+  }
+  
+  .services-cell {
+    margin-top: 10rem;
   }
 
                                             /*  */
