@@ -6,7 +6,7 @@ body {
   background-color: #171717;
   background-image: url(bgimgfull.png);
 
-  /*2nd try parallax CSS+JS*/
+  /* parallax CSS+JS*/
     background-position: top center;
     background-attachment: scroll;
     background-size: cover;
@@ -16,24 +16,12 @@ body {
     font-style: normal;
 
     height: 80vh;
-    /* width: 100%; */
-    /* background-repeat: no-repeat; */
-
-
-  /* padding-top: 75px; */       /*   to correctly set navbar */
 }
 
 html {
 scroll-behavior: smooth;
 }
 
-/*1st try parallax*/
-/* .parallax {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 
  h2 {
    font-size: 2.2rem;
@@ -44,57 +32,6 @@ span {       /* Brand on the bottom */
   font-family: 'Gruppo', cursive;
   font-size: 2rem;
   font-weight: 400;
-}
-
-/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/*/////////////////////////////////////////////////////////////////////////////////// Navbar //////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-nav.navbar {      /* temporarily disabled */
-  display: none;
-}
-
-.nav-move {                     /* A div for correct navbar moving */
-  padding: 100px 0;
-}
-
-.navbar {
-  padding-left: 3rem;
-  padding-right: 3rem;          /* left-padding + logo padding but from the right; v.1: 7.2rem; v.2: 8.1; v.3 8.9 rem; last version: 3rem*/
-}
-
-.navbar-nav {                  /* to align word services with other text on page */
-  padding-left: 1.5rem;
-
-}
-
-.navbar-brand {      /* disabled */
-  color: #DDDDDD;
-  display: none;
-  font-family: 'Gruppo', cursive;
-  font-size: 2rem;
-  font-weight: 400;
-  margin: 1px;
-}
-
-.brand {
-  color: #DDDDDD;
-  font-family: 'Gruppo', cursive;
-  font-size: 2.3rem;
-  font-weight: 400;
-  position: absolute;
-  top: 20px;
-  left: 50px;
-  z-index: 1;
-}
-
-.nav-item {
-  font-size: 1.15rem;
-  font-weight: 400;
-  margin: 0 1.5rem;
-}
-
-.dropdown-menu {              /* disabled*/
-  background-color: #f8f9fa;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -128,6 +65,21 @@ nav.navbar {      /* temporarily disabled */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*//////////////////////////////////////////////////////////////////////////////////////////// Header /////////////////////////////////////////////////////////////////////////////////////////////*/
 
+.nav-move {                     /* A div for correct navbar moving. **Was made when the site had a navbar, now its needed not to affect the layout */
+  padding: 100px 0;
+}
+
+.brand {
+  color: #DDDDDD;
+  font-family: 'Gruppo', cursive;
+  font-size: 2.3rem;
+  font-weight: 400;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  z-index: 1;
+}
+
 .infobox {
   margin: 0 auto;
   padding: 70px 30px;
@@ -145,7 +97,7 @@ nav.navbar {      /* temporarily disabled */
   height: 90vh;
   padding-left: 14%;
   position: relative;
-  right: 14%;        /* old:240px       !!!FINALLY wapka solved: position: relative, right: 14%, width: 114%, padding-left: 14%; !!!*/
+  right: 14%;        
   text-align: center;
   width: 114%;
   z-index: 0;
@@ -194,7 +146,7 @@ nav.navbar {      /* temporarily disabled */
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////////////// Services section ///////////////////////////////////////////////////////////////////////////////////////*/
 
-#services {                                          /* Don't gonna combine with header on top styles */
+#services {                                         
   background-color: #171717;
   border-radius: 100% 0 0 0;
   box-shadow: 0 -30px 55px black;
@@ -320,26 +272,12 @@ nav.navbar {      /* temporarily disabled */
     padding: 200px 0;
   }
 
-  .navbar {
-    line-height: 4;
-    padding-right: 3rem;
-  }
-
-  .nav-item {
-    font-size: 2.75rem;
-  }
-
-  .navbar-toggler-icon {
-    height: 150px;
-    width: 150px;
-  }
-
                                         /*  */
                                         /* Back to top button */
 
-  a.back-to-top {         /* without ( a ) doesnt work idk why */
+  a.back-to-top {        
     top: 60px;
-    right: 60px;       /* manually selected value*/
+    right: 60px;      
     font-size: 5rem;
   }
 
@@ -369,9 +307,9 @@ nav.navbar {      /* temporarily disabled */
                                             /*  */
                                             /* Header */
 
-  #about-us.nav-move {      /* не работает медиа куери с одним #about-us */
-    height: 1250px;     /* +50vh to properly place text  */
-    padding-left: 84%; /* +30% to properly place text  */
+  #about-us.nav-move {      
+    height: 1250px;     
+    padding-left: 84%; 
     right: 84%;
     width: 184%;
   }
