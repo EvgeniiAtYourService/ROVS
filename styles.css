@@ -43,7 +43,7 @@ span {       /* Brand on the bottom */
   top: 60px;
   right: 40px;
   z-index: 1;
-  color: #e2e2e2;
+  color: #aaaaaa; /* prevValue #171717 */
   opacity: 0;
   pointer-events: none;
   transition: all .4s;          /* Other way to do: display: none; */
@@ -91,7 +91,7 @@ span {       /* Brand on the bottom */
 #about-us {
   background-color: #171717;
   border-radius: 0 0 0 100%;
-  box-shadow: 0 30px 55px black;
+  box-shadow: 0 12.5px 55px black;
   color: #DDDDDD;
   font-size: 2.5rem;
   height: 90vh;
@@ -149,11 +149,11 @@ span {       /* Brand on the bottom */
 #services {                                         
   background-color: #171717;
   border-radius: 100% 0 0 0;
-  box-shadow: 0 -30px 55px black;
+  box-shadow: 0 -12.5px 55px black;
   color: #DDDDDD;
   font-size: 2.5rem;
   /* height: 90vh; */
-  height: 800px;
+  height: 850px; /* 800 */
   padding-left: 14%;
   position: relative;
   right: 14%;
@@ -184,6 +184,31 @@ span {       /* Brand on the bottom */
 .services-cell {
   margin-top: 8rem;
 }
+
+/*  Prices button  */
+
+.myButton {
+	background-color:#aaaaaa;
+	border-radius: 5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:22px;
+	padding:11px 61px;
+	text-decoration:none;
+}
+.myButton:hover {
+  color: #ffffff;
+	background-color: grey;
+  text-decoration:none;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+  text-decoration:none;
+}
+
+/*    */
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////////// Contacts / Contacts Icons //////////////////////////////////////////////////////////////////////////////////////*/
