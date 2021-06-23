@@ -302,9 +302,9 @@ span {       /* Brand on the bottom */
                                         /* Back to top button */
 
   a.back-to-top {        
-    top: 60px;
-    right: 60px;      
-    font-size: 5rem;
+    top: 50px;
+    right: 50px;      
+    font-size: 3.3rem;
   }
 
                                         /*  */
@@ -370,7 +370,7 @@ span {       /* Brand on the bottom */
 
   .myButton {
     font-size: 3.5rem;
-    margin-top: 75px;
+    margin-top: 65px;
   }
 
 
