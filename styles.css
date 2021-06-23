@@ -38,10 +38,10 @@ span {       /* Brand on the bottom */
 /*///////////////////////////////////////////////////////////////////////////////////Back to top button ///////////////////////////////////////////////////////////////////////////////////////////*/
 
 .back-to-top {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   position: fixed;
   top: 60px;
-  right: 40px;
+  right: 50px;
   z-index: 1;
   color: #aaaaaa; /* prevValue #171717 */
   opacity: 0;
@@ -367,7 +367,12 @@ span {       /* Brand on the bottom */
   #services p {
     font-size: 3.5vw;
   }
-  
+
+  .myButton {
+    font-size: 3.5rem;
+    margin-top: 75px;
+  }
+
 
                                             /*  */
                                             /* Contacts-section */
