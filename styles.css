@@ -188,18 +188,19 @@ span {       /* Brand on the bottom */
 /*  Prices button  */
 
 .myButton {
-	background-color:#aaaaaa;
+	/* background-color:#aaaaaa; */
 	border-radius: 5px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-size:22px;
+	font-size: 2rem;
+  font-weight: bold;
 	padding:11px 61px;
 	text-decoration:none;
 }
 .myButton:hover {
-  color: #ffffff;
-	background-color: grey;
+  color: #aaaaaa;
+	/* background-color: grey; */
   text-decoration:none;
 }
 .myButton:active {
