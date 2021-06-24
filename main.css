@@ -189,7 +189,7 @@ span {       /* Brand on the bottom */
 	display:inline-block;
 	cursor:pointer;
 	/* color:#DDDDDD; */
-	color: red;
+	color: #DDDDDD;
 	font-size: 2rem;
   font-weight: bold;
 	padding:11px 61px;
