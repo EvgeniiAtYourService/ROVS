@@ -191,6 +191,7 @@ span {       /* Brand on the bottom */
 	color: #DDDDDD;
 	font-size: 2rem;
   font-weight: bold;
+  margin-top: 20px;
 	padding:11px 61px;
 	text-decoration:none;
 }
