@@ -185,7 +185,8 @@ span {       /* Brand on the bottom */
 
 .myButton {
 	/* background-color:#aaaaaa; */
-	border-radius: 5px;
+	border-radius: 40px;
+  border: 1px solid #DDDDDD;
 	display:inline-block;
 	cursor:pointer;
 	color: #DDDDDD;
@@ -196,6 +197,7 @@ span {       /* Brand on the bottom */
 	text-decoration:none;
 }
 .myButton:hover {
+  border: 1px solid #aaaaaa;
   color: #aaaaaa;
 	/* background-color: grey; */
   text-decoration:none;
