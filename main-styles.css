@@ -149,12 +149,12 @@ span {       /* Brand on the bottom */
   color: #DDDDDD;
   font-size: 2.5rem;
   /* height: 90vh; */
-  height: 900px; /* 850 */
-  padding-left: 14%;
+  height: 950px; /* 850 */
+  padding-left: 22%;
   position: relative;
-  right: 14%;
+  right: 22%;
   text-align: center;
-  width: 114%;
+  width: 122%;
 }
 
 #services h2 {
