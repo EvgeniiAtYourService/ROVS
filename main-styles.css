@@ -150,11 +150,11 @@ span {       /* Brand on the bottom */
   font-size: 2.5rem;
   /* height: 90vh; */
   height: 950px; /* 850 */
-  padding-left: 22%;
+  padding-left: 30%;
   position: relative;
-  right: 22%;
+  right: 30%;
   text-align: center;
-  width: 122%;
+  width: 130%;
 }
 
 #services h2 {
@@ -178,7 +178,7 @@ span {       /* Brand on the bottom */
 }
 
 .services-cell {
-  margin-top: 11rem; /* 8 */
+  margin-top: 10rem; /* 8 */
 }
 
 /*  Prices button  */
