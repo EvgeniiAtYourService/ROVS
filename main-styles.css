@@ -178,7 +178,7 @@ span {       /* Brand on the bottom */
 }
 
 .services-cell {
-  margin-top: 8rem;
+  margin-top: 11rem; /* 8 */
 }
 
 /*  Prices button  */
@@ -345,11 +345,13 @@ span {       /* Brand on the bottom */
                                           /* Services section  */
 
    #services.nav-move {
-     height: 2150px; /* 2050 */
+    height: 2150px; /* 2050 */
     padding-left: 127%;
     right: 127%;
     width: 227%;
   }
+
+  
 
   #services h2 {
     position: static;
